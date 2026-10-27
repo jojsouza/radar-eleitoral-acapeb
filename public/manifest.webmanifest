@@ -1,0 +1,9 @@
+{
+  "name": "Radar Eleitoral ACAPEB",
+  "short_name": "Radar ACAPEB",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f3f6fa",
+  "theme_color": "#102c4c",
+  "lang": "pt-BR"
+}
