@@ -1,0 +1,14 @@
+name: Validar portal
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verificar arquivos e JSON
+        run: |
+          test -f public/index.html
+          python -m json.tool public/manifest.webmanifest >/dev/null
