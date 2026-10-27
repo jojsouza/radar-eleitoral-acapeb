@@ -1,9 +1,26 @@
 {
   "name": "Radar Eleitoral ACAPEB",
   "short_name": "Radar ACAPEB",
-  "start_url": "/",
+  "description": "Plataforma de consulta eleitoral do Ponto de Cultura ACAPEB — Gongogi-BA.",
+  "id": "./",
+  "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
-  "background_color": "#f3f6fa",
-  "theme_color": "#102c4c",
-  "lang": "pt-BR"
+  "background_color": "#f4f7fb",
+  "theme_color": "#101d37",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
 }

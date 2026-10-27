@@ -1,0 +1,1 @@
+Coloque aqui arquivos JSON produzidos e validados a partir de dados oficiais do TSE. Este pacote NÃO contém resultados eleitorais reais.
